@@ -1,0 +1,52 @@
+.LoginLogo {
+    width: 70%;
+}
+
+.ant-input-affix-wrapper {
+    height: 50px !important;
+    font-weight: 600 !important;
+    border-radius: 15px !important;
+    color: #777777 !important;
+}
+
+.ant-btn-primary {
+    background-color: #8FC84F !important;
+    box-shadow: 0 0px 0 rgba(255, 255, 255, 0.1) !important;
+    height: 50px !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+}
+
+:where(.css-dev-only-do-not-override-1b0bdye).ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #8FC84F !important;
+    border-color: #8FC84F !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.login-form-box {
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+    position: relative;
+}
+
+.login-block {
+    padding: 30px 0;
+    margin: 0 auto;
+    background-size: cover;
+    min-height: 99vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    
+}
+
+.login-block .auth-box {
+    margin: 0px auto 0;
+    max-width: 450px;
+}

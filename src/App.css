@@ -1,0 +1,450 @@
+.App {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+button.btn.pestBtn {
+  background: #8FC84F;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 5px;
+}
+.Toastify__progress-bar--success {
+  background: #8FC84F !important;
+}
+.Toastify__toast--success .Toastify__toast-body .Toastify__toast-icon  svg{
+  fill: #8FC84F !important;
+}
+
+.serviceHistorytitle {
+  font-size: 13px !important;
+}
+.ServiceHistoryDate{
+  font-size: 12px !important;
+}
+.ServiceHistoryStatus{
+  font-size: 12px !important;
+
+}
+.padding{
+  margin-top: 30px;
+}
+#dropdown-basic-button{
+   width: 110px;
+  
+  
+
+}
+.dropdown-menu.show {
+  background-color:#2d2e2f ;
+
+color: #FFF !important;
+  margin-top: 10px;
+  display: block;
+  min-width: 30% !important;
+  font-size: 12px;
+}
+.dropdown-item {
+  color: #FFF !important;
+  border: 1px solid #FFF ;
+}
+
+#dropdown-basic-button{
+  
+  padding: 5px ;
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  font-size: 13px;
+
+}
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #8fc84f !important;
+  --bs-btn-border-color: #0d6efd;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #8fc84f !important;
+  --bs-btn-hover-border-color:#8fc84f !important;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg:#8fc84f !important;
+  --bs-btn-active-border-color: #0a53be;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #8fc84f !important;
+  --bs-btn-disabled-border-color: #0d6efd;
+}
+
+
+
+/*-------------------- download button --------------- */
+
+
+
+/* Please ❤ this if you like it! */
+
+.mainlogo{
+  width: 70px;
+}
+
+/* task list css */
+.title {
+ 
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.card-block {
+  font-size: 1em;
+  position: relative;
+  margin: 0;
+  padding: 1em;
+  border: none;
+  /* border-top: 1px solid rgba(34, 36, 38, .1); */
+  box-shadow: none;
+   
+}
+
+p.p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start !important;
+}
+.val{
+  width:'120px';
+  display: flex;
+  justify-content: start;
+  text-align: start;
+
+}
+
+ .va {
+  cursor: pointer;
+}
+
+
+
+/* ============ My details list =============== */
+.fontWeight{
+  font-weight: 700;
+}
+.textLeft{
+  text-align: left;
+}
+.fonts14{
+  font-size: 14px;
+}
+.fonts13{
+  font-size: 13px;
+}
+.fonts12{
+  font-size: 12px;
+}
+.fonts10{
+  font-size:10px;
+}
+.fonts9{
+  font-size:9px;
+}
+.fonts{
+  font-size:11px;
+}
+
+.social-list{
+  display:flex;
+  list-style:none;
+  justify-content:center;
+  padding:0;
+}
+
+.social-list li{
+  padding:10px;
+  color:#8E24AA;
+  font-size:19px;
+}
+
+
+
+
+.table{
+  width: 60% !important;
+  
+}
+
+td{
+  background-color: transparent !important;
+}
+
+.task-des {
+ font-size:16px;
+  height: 100px;
+  overflow-y: scroll;
+  text-align: justify;
+    margin: 0px 5px 0px 5px;
+}
+
+/* ========== model css ============== */
+
+.modal{
+  background-color: #7dcc2f22 !important;
+}
+
+.modalhead{
+  background-color: #89e9298c !important;
+}
+.modalbody{
+  background-color: #caefa669 !important;
+}
+
+
+/* =========== Qr code css ======================= */
+.qr-reader {
+  width: 430px;
+  height: 50vh;
+  margin: 0 auto;
+  
+  position: relative;
+}
+
+.qr-reader video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.qr-reader .qr-box {
+  width: 100% !important;
+  left: 0 !important;
+}
+
+.qr-reader .qr-frame {
+  position: absolute;
+  fill: none;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
+@media (max-width: 426px) {
+  .qr-reader {
+    width: 100%;
+  }
+}
+
+/* ======================= SIgnature page css */
+
+
+.signature {
+  display: block;
+  margin: 100px auto;
+  border: 1px solid rgb(181, 179, 179);
+  /* width: 290px; */
+  border-radius: 10px;
+  height: 150px;
+  background-color: #fff;
+}
+
+#toggle {
+  display: none;
+}
+
+
+.label {
+  display: inline-block;;
+  width: 40px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  margin-left: 32px;
+}
+
+.label::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+#toggle:checked + .label {
+  background-color: #2196F3;
+}
+
+#toggle:checked + .label::before {
+  transform: translateX(20px);
+}
+
+/* =================== profile page css ================= */
+
+.profile{
+  /* border: 1px solid gray; */
+  border-radius: 20px;
+  /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+   background-color: #caefa669 !important;
+   width: 100%;
+}
+
+.dropdown-menu.show {
+  background-color: transparent !important;
+  color: #FFF !important;
+  margin-top: 10px;
+  display: block;
+  min-width: 30% !important;
+  font-size: 13px;
+}
+
+.dropdown-menu {
+  
+ border-color:transparent;
+}
+
+.dropdown-menu{
+  border: none !important;
+  margin-left: -15px !important;
+  font-size: 13px !important;
+
+}
+
+.taskcompanyheader{
+border-bottom: 1px solid rgb(210,210,210)  ;
+background-color:#c7e9a0bf;
+}
+.servicename{
+  border-bottom: 1px solid rgb(210,210,210)  ;
+  border-radius: 8px;
+background-color:#c7e9a0bf;
+}
+/* .carousel .carousel-slider .slide img {
+  max-width: 100%;
+  max-height: 300px; 
+  margin: auto;
+} */
+
+.priority-dot {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.priority-text {
+  /* position: absolute; */
+  top: 50%;
+  left: 20px; /* Adjust as needed */
+  transform: translateY(-50%);
+  font-size: 10px;
+}
+
+.priority-dot.open {
+  background-color: orange;
+}
+
+.priority-dot.closed {
+  background-color: green;
+}
+
+.padding1{
+  padding: 10px 10px 0px 10px;
+}
+
+
+/* loding */
+
+.loading-spinner{
+  width:30px;
+  height:30px;
+  border:2px solid indigo;
+  border-radius:50%;
+  border-top-color:#0001;
+  display:inline-block;
+  animation:loadingspinner .7s linear infinite;
+}
+
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+@keyframes loadingspinner{
+  0%{
+    transform:rotate(0deg)
+  }
+  100%{
+    transform:rotate(360deg)
+  }
+}
+/* SignaturePage.css */
+.scrollable-container {
+  height: 100vh; 
+  overflow-y: auto; 
+  padding-bottom: 60px; 
+}
+
+
+
+
+/* 
+
+
+display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+   
+    width: 100%;
+    height: 100%;
+    opacity: 0.5; */

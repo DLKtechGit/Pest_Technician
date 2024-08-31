@@ -1,0 +1,27 @@
+.heading {
+    font-weight: 700;
+}
+
+.subHeading {  
+    background-color: #8FC84F;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.subHeadingLeftText {
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;   
+    letter-spacing: 0.8px;
+}
+.subHeadingRightText{
+    font-size: 10px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    letter-spacing: 0.8px;
+}
+.padding{
+    padding: 20px 10px;
+}

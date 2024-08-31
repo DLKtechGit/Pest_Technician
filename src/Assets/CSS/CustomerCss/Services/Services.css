@@ -1,0 +1,77 @@
+.servicePara {
+    font-weight: 500;
+    color: #8FC84F;
+}
+
+.serviceImg {
+    border-radius: 10px;
+}
+
+.ServiceTitle {
+    font-size: 12px;
+}
+
+.ServicesMain .card {
+    border: none !important;
+}
+
+/* Hsitory */
+.card.serviceHistoryCard {
+    background-color: #f6f6f6 !important;
+    border-radius: 6px !important;
+    /* border: 0px solid #f6f6f6 !important; */
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0%), 0 2px 10px 0 rgb(0 0 0 / 10%);
+}
+
+.serviceHistorytitle {
+    text-align: left;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.calendarIcon {
+    color: #91CA4D;
+    font-size: 20px;
+}
+
+.ServiceHistoryDate {
+    font-size: 14px;
+    border-width: 0px 1.5px 0px 0px;
+    border-style: solid;
+}
+
+.ServiceHistoryStatus {
+    font-size: 14px;
+}
+
+/* allservices history */
+.allHistTitle {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.allServicesHistory.card {
+    background-color: #f4fff0ba;
+}
+.allHistText{
+    font-size: 18px;
+    text-align: left;
+}
+.backArrow{
+    font-size: 18px;
+}
+
+/* InsideServies */
+.insideServices .card{
+    border: none !important;
+}
+
+.serviceImage{
+    width: -webkit-fill-available;
+}
+.taskTitle{
+    text-align: left;
+    font-weight: 600;
+}

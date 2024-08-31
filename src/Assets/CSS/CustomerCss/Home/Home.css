@@ -1,0 +1,39 @@
+/* Navbar style */
+
+.homeNav{
+    background-color: #8FC84F !important;
+    border-radius: 0px 0px 20px 20px !important;
+    height: 100px !important;
+}
+.menus.navbar-nav a{
+    color: white !important;
+    font-weight: 600 !important;
+}
+.offcanvas-body{
+    background-color: #8FC84F !important;
+}
+button.navbar-toggler.collapsed {
+    background-color: white !important;
+}
+.navbar-brand{
+    color: white !important;
+    font-size: 22px !important;
+    font-weight: 600 !important;
+}
+
+/* Bannertitle */
+.homeBannerTitle{
+    font-weight: 700;
+}
+
+/* caroseul style */
+.react-multi-carousel-dot--active button {
+    background: #8FC84F !important;
+}
+.mainCarousel .card{
+    border: none !important;
+} 
+.react-multi-carousel-dot-list {
+    bottom: 25px !important;
+}
+
